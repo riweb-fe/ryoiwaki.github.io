@@ -1,0 +1,24 @@
+/* フクロウセレクタ */
+.stack > * + * {
+  margin-top: var(--stack-space, 1.5em);
+  /* 初期値：1.5em、h2・h3：--stack-spaceで設定した値へ変換（2em） */
+}
+
+.stack h2,
+.stack h3 {
+  --stack-space: 2em;
+}
+
+.stack h2 + *,
+.stack h3 + * {
+  --stack-space: 0.8em;
+}
+
+.stack p {
+  line-height: 1.8;
+}
+
+.stack ul {
+  padding: revert;
+  list-style: revert;
+}

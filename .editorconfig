@@ -1,0 +1,27 @@
+# プロジェクトのルートフォルダであるかの真偽
+root = true
+
+# 共通設定
+[*]
+
+# 改行コード
+end_of_line = crlf
+
+# 文字コード
+charset = utf-8
+
+# インデント
+indent_style = space
+
+#行末の空白文字の削除の要否
+trim_trailing_whitespace = true
+
+# インデントサイズ
+[*.css]
+indent_size = 2
+
+[*.scss]
+indent_size = 2
+
+[*.js]
+indent_size = 4

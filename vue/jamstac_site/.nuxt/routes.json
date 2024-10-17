@@ -1,0 +1,38 @@
+[
+  {
+    "name": "concept",
+    "path": "/concept",
+    "component": "C:\\\\Users\\\\heart\\\\OneDrive\\\\デスクトップ\\\\portfolio\\\\vue\\\\jamstac_site\\\\pages\\\\concept\\\\index.vue",
+    "chunkName": "pages/concept/index"
+  },
+  {
+    "name": "information",
+    "path": "/information",
+    "component": "C:\\\\Users\\\\heart\\\\OneDrive\\\\デスクトップ\\\\portfolio\\\\vue\\\\jamstac_site\\\\pages\\\\information\\\\index.vue",
+    "chunkName": "pages/information/index"
+  },
+  {
+    "name": "menu",
+    "path": "/menu",
+    "component": "C:\\\\Users\\\\heart\\\\OneDrive\\\\デスクトップ\\\\portfolio\\\\vue\\\\jamstac_site\\\\pages\\\\menu\\\\index.vue",
+    "chunkName": "pages/menu/index"
+  },
+  {
+    "name": "shop",
+    "path": "/shop",
+    "component": "C:\\\\Users\\\\heart\\\\OneDrive\\\\デスクトップ\\\\portfolio\\\\vue\\\\jamstac_site\\\\pages\\\\shop\\\\index.vue",
+    "chunkName": "pages/shop/index"
+  },
+  {
+    "name": "information-id",
+    "path": "/information/:id",
+    "component": "C:\\\\Users\\\\heart\\\\OneDrive\\\\デスクトップ\\\\portfolio\\\\vue\\\\jamstac_site\\\\pages\\\\information\\\\_id.vue",
+    "chunkName": "pages/information/_id"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\heart\\\\OneDrive\\\\デスクトップ\\\\portfolio\\\\vue\\\\jamstac_site\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

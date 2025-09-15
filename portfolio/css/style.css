@@ -3573,7 +3573,7 @@ figcaption p.text-top {
   left: 0;
   height: 100%;
   padding: 0 20px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .m_top {

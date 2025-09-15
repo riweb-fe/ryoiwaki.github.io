@@ -66,7 +66,7 @@ img {
   vertical-align: bottom;
 }
 
-h1, h2, h3, h4, h4 , h6 {
+h1, h2, h3, h4, h5 {
   margin: 0;
   font-family: 'Meiryo UI',sans-serif;
 }
@@ -3646,7 +3646,7 @@ figcaption p.text-top {
   padding: 48px 0 82px 0;
 }
 
-.l_detail h6 {
+.l_detail h5 {
   font-size: 2.6rem;
   line-height: 26px;
   letter-spacing: 1px;
@@ -3839,7 +3839,7 @@ figcaption p.text-top {
     padding-top: 69px;
   }
 
-  .l_detail h6 {
+  .l_detail h5 {
     font-size: 3rem;
     line-height: 30px;
   }
@@ -4030,7 +4030,7 @@ figcaption p.text-top {
     float: left;
   }
 
-  .l_detail h6 {
+  .l_detail h5 {
     font-size: 3.4rem;
     line-height: 34px;
   }
@@ -4184,7 +4184,7 @@ figcaption p.text-top {
     height: 3px;
   }
 
-  .l_detail h6 {
+  .l_detail h5 {
     font-size: 3.6rem;
     line-height: 36px;
   }
@@ -4322,7 +4322,7 @@ figcaption p.text-top {
     padding: 110px 0 136px 0;
   }
 
-  .l_detail h6 {
+  .l_detail h5 {
     font-size: 3.6rem;
     line-height: 36px;
   }

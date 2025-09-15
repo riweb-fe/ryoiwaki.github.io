@@ -60,7 +60,7 @@ $(function(){
   // スマホ・タブレットの場合
   function dir_sp() {
 
-    $("#tool").not('.keep').removeClass(); 
+    $("#tool").not('.keep').removeClass();
     $("#tool").addClass("sp_tool");
 
     function keep_rem() {
@@ -137,7 +137,7 @@ $(function(){
   // ＰＣの場合
   function dir_pc() {
 
-    $("#tool").not('.keep').removeClass(); 
+    $("#tool").not('.keep').removeClass();
     $("#tool").addClass("pc_tool");
 
     $("#mainvisual img, .pc_tool").hover(function() {
@@ -265,7 +265,7 @@ $(function(){
   timer = setInterval(slideTimer, interval);
 
   function slideTimer() {
- 
+
     if(dir == 1) {
 
       $(".slider li").removeClass();
@@ -275,7 +275,7 @@ $(function(){
 
 
       // キャプションセクション分右へスクロール
- 
+
       $("#mainvisual_caption").removeClass("c_rewind");
       $(".c_fadeIn").animate({"opacity": 0}, duration
 , function() {
@@ -540,7 +540,7 @@ $(function(){
 
     $("body").addClass("visibility-hidden");
 
-    $("body").append('<div class="modal_bg"></div><div class="modal"><article><div class="m_top"><h5 class="m_border">Graphic design</h5><button class="m_close">close</button></div><div class="l_main"><section class="l_detail"><h6>Leaflet</h6><p>A4 Size（ 297mm × 210mm ）<br>total： 6 page</p></section><div class="leaflet"><div class="out_side"><img src="images/fashio_out.jpg" alt="リーフレット外面" width="842" height="595"><span>Out Side（Ｗ：97mm / 100mm / 100mm ）</span></div><div class="in_side"><img src="images/fashio_in.jpg" alt="パンフレット内面" width="842" height="595"><span>In Side（Ｗ：100mm / 100mm / 97mm ）</span></div></div></div></article></div>');
+    $("body").append('<div class="modal_bg"></div><div class="modal"><article><div class="m_top"><button class="m_close">close</button></div><div class="l_main"><section class="l_detail"><h5>Leaflet</h5><p>A4 Size（ 297mm × 210mm ）<br>total： 6 page</p></section><div class="leaflet"><div class="out_side"><img src="images/fashio_out.jpg" alt="リーフレット外面" width="842" height="595"><span>Out Side（Ｗ：97mm / 100mm / 100mm ）</span></div><div class="in_side"><img src="images/fashio_in.jpg" alt="パンフレット内面" width="842" height="595"><span>In Side（Ｗ：100mm / 100mm / 97mm ）</span></div></div></div></article></div>');
 
     $(".modal_bg").hide();
     $(".modal").hide();
@@ -548,7 +548,7 @@ $(function(){
     $(".modal_bg").css("top", $(window).scrollTop() - 3 + "px");
 
     $(".modal").css("top", $(window).scrollTop() - 3 + "px");
- 
+
     m_position = $(window).scrollTop();
 
     $('body').addClass('m_fixed').css({'top': -m_position});
